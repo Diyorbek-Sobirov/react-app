@@ -1,0 +1,14 @@
+.todoItem{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 0 5px black;
+    padding: 10px;
+    margin-top: 10px;
+    &__title{
+        margin: 0;
+        margin-right: auto;
+        margin-left: 20px;
+    }
+}
