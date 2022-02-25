@@ -2,6 +2,7 @@ import { useState } from 'react';
 import './App.scss';
 import TodoList from './Components/TodoList/TodoList';
 import Modal from './Components/Modal/Modal';
+import MJurayev from './Components/MJurayev/MJurayev';
 import fullName from './Components/Sanjarbek/Sanjar';
 function App() {
   const [open, setOpen] = useState(false)
@@ -14,8 +15,8 @@ function App() {
       <Modal setIsOpen={setOpen} isOpen={open} />
       <TodoList />
       <fullName />
+      <MJurayev />
 
-      
     </div>
   );
 }
