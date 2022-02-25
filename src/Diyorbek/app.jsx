@@ -1,5 +1,5 @@
 function New(){
-    return<div>
+    return <div>
         Diyorbek Sobirov
     </div>
 }
