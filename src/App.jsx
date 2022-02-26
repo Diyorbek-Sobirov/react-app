@@ -4,6 +4,7 @@ import TodoList from './Components/TodoList/TodoList';
 import Modal from './Components/Modal/Modal';
 import MJurayev from './Components/MJurayev/MJurayev';
 import fullName from './Components/Sanjarbek/Sanjar';
+import NMuhiddin from "./Components/NMuhiddin/NMuhiddin";
 function App() {
   const [open, setOpen] = useState(false)
   const handleClick = () => {
@@ -16,7 +17,7 @@ function App() {
       <TodoList />
       <fullName />
       <MJurayev />
-
+      <NMuhiddin />
     </div>
   );
 }
